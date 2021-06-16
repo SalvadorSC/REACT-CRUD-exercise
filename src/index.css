@@ -1,13 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "Poppins", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+li {
+  list-style: none;
+  height: 40px;
+  border-radius: 20px;
+  background-color: rgb(182, 255, 255);
+  border: 1px solid rgb(73, 255, 255);
+}
+
+.button-add {
+  height: 40%;
+  background-color: rgb(182, 255, 255);
+  border: 1px solid rgb(73, 255, 255);
+}
+.button-guardar {
+  height: 40%;
+  background-color: rgb(210, 255, 217);
+  border: 1px solid rgb(73, 255, 88);
+}
+.button-editar {
+  height: 40%;
+  background-color: rgb(210, 255, 217);
+  border: 1px solid rgb(73, 255, 88);
+  height: 40px;
+  width: 80px;
+}
+
+.button-delete {
+  color: red;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(255, 212, 193);
+  border: 1px solid red;
+  font-size: 20px;
+  height: 40px;
+  width: 40px;
+}
+
+ul {
+  padding: 0;
+}
+
+.show-form {
+  display: block;
+}
+.hide-form {
+  display: none;
 }
